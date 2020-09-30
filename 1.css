@@ -1,0 +1,76 @@
+.header{
+ height: 380px;
+ background: url("./logo2.jpg");
+ width: 1200px;
+ background-size: cover;
+margin: 0 auto;
+}
+
+:root{
+  --main-bg-color: floralwhite;
+
+}
+
+
+
+.wrapper{
+  background-color: var(--main-bg-color);
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li a{
+  display: flex;
+  width: 250px;
+  height: 41px;
+  border-radius: 20px;
+  background-color: bisque;
+  text-decoration: none;
+  color: #cc0033;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin: 300px 10px 0px -30px
+}
+
+.navbar ul li a:hover{
+  color: var(--main-bg-color);
+  background-color: #cc0033;
+font-weight: bold;
+}
+
+.content{
+  display: flex;
+  justify-content:space-around;
+}
+
+.content a{
+  display: block;
+  justify-content: space-around;
+  margin: 5px;
+  border: 1px solid;
+  border-color: darkmagenta;
+  background-color: white;
+  padding: 10px;
+  width: 20vw;
+  height: 300px;
+}
+
+.content section{
+  display: flex;
+  justify-content:space-around;
+}
+.aside a{
+  border: none; 
+  height: 15px;
+  text-align: center; 
+  background-color: var(--main-bg-color);
+  margin-bottom:0px;
+font-family:'Arial Narrow Bold';
+
+
+}
